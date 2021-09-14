@@ -1,0 +1,168 @@
+* {
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+
+body{
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+
+}
+
+
+
+.dark-theme{
+    background-color: black;
+    color: white;
+    display: fles;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: black;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    
+    
+    
+}
+
+.Calculator {
+    display: fles;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+}
+
+.AdditionButton {
+    width: 150px;
+    height: 50;
+    border: none;
+    color:white;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 grey;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+
+.AdditionButton:hover {
+    box-shadow: inset 300px 0 0 0 grey;
+    cursor: pointer;
+    color: black;
+}
+
+.MinusButton {
+    width: 150px;
+    height: 50;
+    border: none;
+    color:white;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 grey;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+
+.MinusButton:hover {
+    box-shadow: inset 300px 0 0 0 grey;
+    cursor: pointer;
+    color: black;
+}
+
+.MultiplicationButton {
+    width: 150px;
+    height: 50;
+    border: none;
+    color:white;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 grey;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+
+.MultiplicationButton:hover {
+    box-shadow: inset 300px 0 0 0 grey;
+    cursor: pointer;
+    color: black;
+}
+
+.DivisionButton {
+    width: 150px;
+    height: 50;
+    border: none;
+    color:white;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 grey;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+
+.DivisionButton:hover {
+    box-shadow: inset 300px 0 0 0 grey;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.NightMode
+{
+    position:relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background: black;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+}
+
+
+
+.NightMode:before{
+    content:'';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+
+
+.NightMode:after{
+    content:'';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+
